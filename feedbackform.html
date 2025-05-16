@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" > 
+<head>
+        <title>Vizion Mobiles | Feed Back</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale =1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="jscript.js" defer></script>
+</head>
+<body class="bodystyle" >
+    <!--nav,div,then content-->
+  <nav class="navigationBar">
+       <ul>
+        <div class="logo"><h1>VIZION MOBILES</h1></div>
+        <li><a href="index.html"> HOME</a> </li> 
+        <li><a href="services.html"> OUR PHONES </a></li>
+        <li><a href="contact.html"> CONTACT US </a></li>
+        <li><a href="about.html"> ABOUT US </a></li>
+       </ul>
+  </nav>
+  <div class="content-wrapper">
+    <main>
+      <form id="feedBackForm">
+        <h2>FEED BACK</h2>
+        <label for="name">First Name</label>
+        <input type="text" id="name" name="name" placeholder="first name" required />
+
+        <label for="name">Last Name</label>
+        <input type="text" id="name" name="name" placeholder="Last name" required />
+
+        <label for="name">Comment</label>
+        <input type="text" id="name" name="name" required maxlength="500" />
+        
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="email@xxxx.com" required />
+
+        <button type="submit">SEND</button>
+      </form>
+    </main>
+  </div>
+  </body>
+<script>
+  document.getElementById('feedBackForm').addEventListener('submit', function (event){
+    event.preventDefault();
+
+     setTimeout(function (){
+     alert("THANK YOU FOR YOUR FEEDBACK");
+     event.target.reset();
+     }, 2000);
+     });
+</script>
+
+<footer class="footerStyle"> 2025 © Vizion </footer>
+</html>
+<!--formfor feedback done-->
