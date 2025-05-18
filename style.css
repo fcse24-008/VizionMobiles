@@ -273,6 +273,7 @@ max width mean effects applied strart px and down/
            text-align:center;
            justify-self:center;
            width:100%;
+           transition:0.4s;
     }
 
 .h7 button:hover{
