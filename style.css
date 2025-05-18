@@ -242,6 +242,46 @@ max width mean effects applied strart px and down/
         opacity: 100%;
         padding: 1%;
     }
+  
+   .p5{
+
+    justify-self:center; 
+    background-color: black; 
+    color:white;
+    border-radius:12px;
+    padding:3%;
+    text-align:center;
+   }
+
+.h7{
+          display:flex; 
+          flex-dirction:row; 
+          justify-self:center; 
+          width:75%;
+          font-family:mono-space;
+          align-items:center;
+          justify-content:center;
+          font-size:3rem;
+   }
+
+.h7 button{
+           background-color: rgb(15 146 253); 
+           color:white;
+           border-radius:12px;
+           padding:3%;
+           margin:5%;
+           text-align:center;
+           justify-self:center;
+           width:100%;
+    }
+
+.h7 button:hover{
+          padding:3% 4% 3% 4%;
+          background-color:black;
+
+}
+
+
     
     /*banner codes*/
     #homeBanner{
