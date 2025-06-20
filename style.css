@@ -101,6 +101,7 @@ max width mean effects applied strart px and down/
         opacity: 85%;
         padding: 0.3%;
         box-shadow: 2px 4px 6px 0px rgb(0 0 0);
+        background-image: url(Images/chatwithus.jpg) ;
         /*done*/
     }
     .h2 {   /*headings*/
